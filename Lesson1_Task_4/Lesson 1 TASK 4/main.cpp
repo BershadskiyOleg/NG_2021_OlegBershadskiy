@@ -22,6 +22,7 @@ int main()
    {
        cout << "Rabotai bolshe, no ti molodec";
    }
+   system ("pause");
 
        return 0;
 }
