@@ -22,7 +22,7 @@ int main()
     {
         cout << "NO";
     }
-
-
+    system ("pause");
+    
        return 0;
 }
