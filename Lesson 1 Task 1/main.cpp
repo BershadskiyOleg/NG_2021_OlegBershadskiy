@@ -6,5 +6,4 @@ int main()
 {
     cout << "Oleg" << endl;
     cout << "Bershadskiy";
-    system ("pause");
 }
