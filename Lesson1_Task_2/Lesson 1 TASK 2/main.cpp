@@ -10,5 +10,5 @@ int main()
     cout << "Vvedite dryge chislo: ";
     cin >> number_2;
     cout << "Summa: " << number_1 + number_2;
-
+    system ("pause");
 }
