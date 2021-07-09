@@ -19,5 +19,5 @@ int main()
     case 4 : cout << "Resultat: " << number_1 / number_2; break;
     default: cout << "Taka diay vidsytnay";
     }
-
+    system ("pause");
 }
