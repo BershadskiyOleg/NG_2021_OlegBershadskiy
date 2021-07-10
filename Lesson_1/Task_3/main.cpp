@@ -4,21 +4,19 @@ using namespace std;
 
 int main()
 {
-    int treba_gorixiv, zibrano_shushok, gorixiv_v_shishki, Summa;
+    int trebaGorixiv, zibranoShushok, gorixivVshishki;
     cout << "Vvedite skilku treba gorixiv: ";
-    cin >> treba_gorixiv;
-    cout << "Skilku shishok zibrala: ";
-    cin >> zibrano_shushok;
+    cin >> trebaGorixiv;
+    cout << "Skilku shishok zibrano: ";
+    cin >> zibranoShushok;
     cout << "Skilku gorixiv v shushki: ";
-    cin >> gorixiv_v_shishki;
-    Summa = zibrano_shushok*gorixiv_v_shishki;
-
-
-    if(treba_gorixiv == Summa || treba_gorixiv <= Summa)
+    cin >> gorixivVshishki;
+    
+    if(trebaGorixiv == zibranoShushok * gorixivVshishki || trebaGorixiv < zibranoShushok * gorixivVshishki)
     {
         cout << "OK";
     }
-    if(treba_gorixiv > Summa)
+    if(trebaGorixiv > zibranoShushok * gorixivVshishki)
     {
         cout << "NO";
     }
