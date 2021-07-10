@@ -16,7 +16,7 @@ int main()
     {
         cout << "OK";
     }
-    elae if(T > Z * G) // просто else чомусь не працює, тому використав else if
+    elae if(T > Z * G) // prosto else ne robe, tomy vukorustav else if
     {
         cout << "NO";
     }
