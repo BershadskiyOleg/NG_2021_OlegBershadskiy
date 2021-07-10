@@ -4,19 +4,19 @@ using namespace std;
 
 int main()
 {
-    int trebaGorixiv, zibranoShushok, gorixivVshishki;
+    int T, Z, G;
     cout << "Vvedite skilku treba gorixiv: ";
-    cin >> trebaGorixiv;
+    cin >> T;
     cout << "Skilku shishok zibrano: ";
-    cin >> zibranoShushok;
+    cin >> Z;
     cout << "Skilku gorixiv v shushki: ";
-    cin >> gorixivVshishki;
+    cin >> G;
     
-    if(trebaGorixiv == zibranoShushok * gorixivVshishki || trebaGorixiv < zibranoShushok * gorixivVshishki)
+    if(T <= Z * G)
     {
         cout << "OK";
     }
-    if(trebaGorixiv > zibranoShushok * gorixivVshishki)
+    elae if(T > Z * G) // просто else чомусь не працює, тому використав else if
     {
         cout << "NO";
     }
