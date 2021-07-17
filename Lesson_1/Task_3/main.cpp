@@ -16,7 +16,7 @@ int main()
     {
         cout << "OK";
     }
-    elae if(T > Z * G) // prosto else ne robe, tomy vukorustav else if
+    else 
     {
         cout << "NO";
     }
